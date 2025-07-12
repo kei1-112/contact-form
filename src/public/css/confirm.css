@@ -1,0 +1,51 @@
+.confirm__table{
+    width:60%;
+    margin: 0 auto;
+}
+th{
+    background-color: #baa899;
+    color:#ffffff;
+    font-weight:lighter;
+    width:30%;
+    text-align:left;
+    padding: 2% 0px 2% 3%;
+}
+td{
+    color:#a89b8e;
+    font-weight: lighter;
+    text-align: left;
+    padding: 2% 0px 2% 3%;
+}
+
+th,td{
+    border: 1px solid #eeeded;
+}
+
+input{
+    border:none;
+    color:#a19285;
+}
+
+.input__field{
+    color:#a19285;
+    width:40px;
+}
+
+.form__button{
+    margin: 0 auto;
+    padding:50px 0 ;
+    align-content: center;
+}
+.form__button-submit {
+    background-color: #82756b;
+    color: #ffffff;
+    border: none;
+    padding: 8px 40px;
+}
+.form__button-correction {
+    background-color: #ffffff;
+    color: #a49689;
+    border: none;
+    text-decoration: underline;
+    padding: 8px 40px;
+}

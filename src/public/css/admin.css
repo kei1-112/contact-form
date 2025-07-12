@@ -1,0 +1,238 @@
+.main{
+    padding-bottom:50px;
+}
+.search{
+    display:flex;
+    width:80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.search__input{
+    width:30%;
+    height:40px;
+}
+
+.search__input--field{
+    width: 100%;
+    height: 100%;
+    padding:10px 0 10px 10px;
+    background-color: #fbfbfb;
+    border: solid 1px  #ece9e7;
+}
+
+input::placeholder{
+    color:#beb1a7;
+}
+.form__select-box--gender {
+    width: 8%;
+}
+
+.form__select-box--category {
+    width: 15%;
+}
+
+.form__select {
+    width: 100%;
+    height: 40px;
+    border: solid 1px #ece9e7;
+    background-color: #f4f4f4;
+    color:#8b7969;
+}
+
+.search__date{
+    width:15%;
+}
+
+.form__calendar{
+    width:100%;
+    height:100%;
+    border: solid 1px #ece9e7;
+    background-color: #f4f4f4;;
+    color:#a89b91;
+}
+
+.search__button{
+    width: 8%;
+    height:40px;
+}
+
+.search__button--search{
+    width: 100%;
+    height:100%;
+    background-color: #82756b;
+    color: #ffffff;
+    border: none;
+}
+
+.search__button--reset{
+    display: inline-flex;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9c6b5;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation{
+    width:80%;
+    display: flex;
+    margin:20px auto 0 auto;
+    justify-content: space-between;
+}
+
+.button__export{
+    display: inline-flex;
+    width: 100%;
+    margin-top:20px;
+    padding:10px 20px;
+    align-items: end;
+    justify-content: center;
+    background-color: #edeae6;
+    color: #8b7969;
+    text-decoration: none;
+}
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+/* 件数表示（Showing x to y of z results）を非表示 */
+nav[role="navigation"] p.text-sm.text-gray-700.leading-5 {
+    display: none;
+}
+
+/* 前・次のボタン（スマホ表示）を非表示 */
+nav[role="navigation"]>div:first-child {
+    display: none;
+}
+
+.navigation__pagination {
+    border: 1px solid #e0dfde;
+    border-radius: 6px;
+    padding: 8px 13px 8px 4px;
+    display: inline-block;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+/* ページネーションの数字ボタン共通スタイル */
+.navigation__pagination .inline-flex {
+    position:relative;
+    background-color: #ffffff;
+    color: #8b7969;
+    margin-left: 4px;
+    padding: 6x 9px;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 36px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navigation__pagination .inline-flex:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #8b7969;
+}
+
+/* 現在のページ（1など）の強調表示 */
+.navigation__pagination [aria-current="page"] .inline-flex {
+    background-color: #8b7969;
+    padding:6px 9px;
+    color: #ffffff;
+}
+
+.table{
+    width:80%;
+    margin:20px auto 0 auto;
+}
+
+.table__list--th{
+    background-color: #8b7969;
+    color:#ffffff;
+    text-align:left;
+    padding:10px 0px 15px 10px;
+}
+.table__list--tr{
+    border:solid 1px #f2f1f1;
+}
+.table__list--td{
+    color: #8b7969;
+    text-align: left;
+    padding: 10px 0px 15px 10px;
+}
+
+.button__detail{
+    border:1px solid #e7dcd1;
+    background-color: #fcfcfc;
+    color: #8b7969;
+    width:60px;
+    padding:5px 5px;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal__content{
+    background: #ffffff;
+    padding: 2rem;
+    width: 90%;
+    height:90%;
+    max-width:500px;
+    border:solid 1px #b7aba2;
+    z-index: 1001;
+}
+
+.button__modal-close{
+    border-radius:50%;
+    border:solid 1px #8b7969;
+    color:#8b7969;
+    background-color: #ffffff;
+}
+
+.button__modal{
+    text-align: right;
+}
+
+.detail-table{
+    width:100%;
+}
+
+.table__detail--th{
+    color:#a19285;
+    text-align:left;
+    padding:10px;
+}
+
+.table__detail--td{
+    color:#8f7d6e;
+    text-align: left;
+    padding:10px;
+}
+
+.button__delete{
+    background-color:#ba360e;
+    color:#ffffff;
+    width:60px;
+    margin: 40px auto 0 auto;
+    padding:5px;
+    border:none;
+}
